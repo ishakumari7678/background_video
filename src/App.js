@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="app">
       <video ref={videoRef} autoPlay muted loop className="bg-video">
-        <source src="/background.mp4" type="video/mp4" />
+        <source src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4" type="video/mp4" />
       </video>
 
       <div className="overlay">
